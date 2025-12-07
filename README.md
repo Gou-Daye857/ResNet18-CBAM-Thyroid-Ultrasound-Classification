@@ -5,3 +5,4 @@ We use the publicly available TN5000 thyroid ultrasound dataset introduced by Hu
 ## Framework
 We enhance ResNet by incorporating the CBAM attention module to improve classification performance.
 
+![Framework Overview](figure/fig1.png)
