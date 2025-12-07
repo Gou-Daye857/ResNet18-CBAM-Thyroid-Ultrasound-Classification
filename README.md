@@ -13,13 +13,13 @@ After obtaining the optimal weights from the five folds, all trained models are 
 
 **Confusion Matrix**
 <p align="center">
-  <img src="figures/confusion_matrix.png" width="420"><br>
+  <img src="figure/fig2.png" width="420"><br>
   <b>Figure 1.</b> Confusion matrix of the ResNet18-CBAM model on the test set.
 </p>
 
 **ROC Curve**
 <p align="center">
-  <img src="figures/roc_curve.png" width="420"><br>
+  <img src="figure/fig3.png" width="420"><br>
   <b>Figure 2.</b> ROC curve of the ResNet18-CBAM model with an AUC of 0.942.
 </p>
 
@@ -27,7 +27,7 @@ After obtaining the optimal weights from the five folds, all trained models are 
 Compared with the baseline ResNet18 and the SE-based (Squeeze-and-Excitation Block) variant under identical training conditions, the ResNet18-CBAM model consistently outperforms both across all evaluation metrics. In particular, the CBAM model shows a more notable improvement in AUC, indicating that the joint use of channel and spatial attention is more effective than channel attention alone for thyroid nodule classification.
 
 <p align="center">
-  <img src="figures/model_comparison.png" width="520"><br>
+  <img src="figure/fig4.png" width="520"><br>
   <b>Figure 3.</b> Performance comparison among ResNet18, SE-ResNet18, and ResNet18-CBAM.
 </p>
 
